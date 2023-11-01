@@ -116,7 +116,7 @@ main .personagem .imagem {
     color: #ffffff;
     font-size: large 48px;
     font-family: "Secular one";
-    font-weight: 400px;
+    font-weight:  400px;
     margin-bottom: 20px;
     text-align: left; /* Move o texto do nome para a esquerda */
     font-weight: bold;
@@ -143,10 +143,9 @@ main .personagem .imagem {
 .conteudo .descricao {
     color: #ffffff;
     font-family: "Rubik";
-    line-height: 30px;
+    line-height: 22px;
     text-align: left; /* Move o texto da descrição para a direita */
     font-weight: bolder;
-    font-size: 22px;
     
 }
 
