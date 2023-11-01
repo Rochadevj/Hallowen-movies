@@ -27,7 +27,7 @@ main .personagem .imagem {
 
 .ghost {
     width: 100px;
-    height: 120px;
+    height: 100px;
     background-color: #fff;
     margin: 60px;
     border-radius: 100rem 100rem 0 0;
