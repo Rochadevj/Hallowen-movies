@@ -1,0 +1,9 @@
+* {
+    margin: 0; /* espaçamento de fora,tirar do padrao do google */
+    padding: 0;  /* espaçamento de dentro */
+    box-sizing: border-box; 
+}
+
+ul {
+    list-style: none; /* tirar as bolinha da lista, pois é uma lista ordenada */
+}
