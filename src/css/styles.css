@@ -198,9 +198,9 @@ main .personagem .imagem {
     .conteudo {
         justify-content: flex-end;
         left: 0;
-        top:  -28;
+        top:  -28%;
         max-width: 100vw;
-        padding: 30px;
+        padding: 20px;
     }
 
 
@@ -213,6 +213,7 @@ main .personagem .imagem {
         align-items: flex-end;
         width: 100%;
         padding: 20px;
+        top: -20%;
     }
 
     .botoes .botao img {
