@@ -203,6 +203,10 @@ main .personagem .imagem {
         padding: 20px;
     }
 
+    .ghost {
+        top: 78%; /* Defina o valor desejado para o top na resolução de 769px */
+    }
+
 
     .conteudo .descricao {
         max-width: 500px;
@@ -231,6 +235,10 @@ main .personagem .imagem {
     }
     .conteudo {
         top: -28%;
+    }
+
+    .ghost {
+        top: 78%; /* Defina o valor desejado para o top na resolução de 769px */
     }
     .conteudo .nome-perso {
         font-size: 24px;
