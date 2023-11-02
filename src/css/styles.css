@@ -27,16 +27,17 @@ main .personagem .imagem {
 
 .ghost {
     width: 100px;
-    height: 100px;
+    height: 120px;
     background-color: #fff;
-    margin: 60px;
+    margin: 27px;
     border-radius: 100rem 100rem 0 0;
     position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: ghost 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) alternate infinite;
     top: 76%;
-    left: 20%;
+    left: 29%;
 }
 
 .ghost::before {
@@ -101,7 +102,7 @@ main .personagem .imagem {
 
 .conteudo {
     position: absolute;
-    top: 0;
+    top: -28px;
     left: 210px; /* Ajuste a posição para a direita conforme desejado */
     display: flex;
     flex-direction: column;
@@ -142,10 +143,9 @@ main .personagem .imagem {
 .conteudo .descricao {
     color: #ffffff;
     font-family: "Rubik";
-    line-height: 22px;
+    line-height: 24px;
     text-align: left; /* Move o texto da descrição para a direita */
     font-weight: bolder;
-    
 }
 
 
@@ -185,12 +185,6 @@ main .personagem .imagem {
     box-shadow: 0 0 0px #000000; /* Corrigido o erro de sintaxe aqui */
 }
 
-
-
-
-
-
-
 @media (max-width: 769px) {
     main::after {
         background: linear-gradient(0deg, #000 20%, rgba(0, 0, 0, 0.00) 65%) no-repeat;
@@ -202,9 +196,9 @@ main .personagem .imagem {
     }
     
     .conteudo {
-        justify-content: center;
+        justify-content: flex-end;
         left: 0;
-        top:  10%;
+        top:  -28;
         max-width: 100vw;
         padding: 30px;
     }
@@ -235,7 +229,7 @@ main .personagem .imagem {
         height: 75px;
     }
     .conteudo {
-        top: -7%;
+        top: -28%;
     }
     .conteudo .nome-perso {
         font-size: 24px;
