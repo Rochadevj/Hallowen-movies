@@ -36,7 +36,7 @@ main .personagem .imagem {
     align-items: center;
     justify-content: center;
     animation: ghost 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) alternate infinite;
-    top: 76%;
+    top: 79%;
     left: 29%;
 }
 
