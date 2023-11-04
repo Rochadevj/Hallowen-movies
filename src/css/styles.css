@@ -204,7 +204,7 @@ main .personagem .imagem {
     }
 
     .ghost {
-        top: 80%; /* Defina o valor desejado para o top na resolução de 769px */
+        top: 78%; /* Defina o valor desejado para o top na resolução de 769px */
     }
 
 
