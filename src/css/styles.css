@@ -204,7 +204,7 @@ main .personagem .imagem {
     }
 
     .ghost {
-        top: 78%; /* Defina o valor desejado para o top na resolução de 769px */
+        top: 80%; /* Defina o valor desejado para o top na resolução de 769px */
     }
 
 
@@ -218,6 +218,7 @@ main .personagem .imagem {
         width: 100%;
         padding: 20px;
         top: -20%;
+        gap: 18px;
     }
 
     .botoes .botao img {
@@ -238,7 +239,7 @@ main .personagem .imagem {
     }
 
     .ghost {
-        top: 78%; /* Defina o valor desejado para o top na resolução de 769px */
+        top: 80%; /* Defina o valor desejado para o top na resolução de 769px */
     }
     .conteudo .nome-perso {
         font-size: 24px;
@@ -246,6 +247,7 @@ main .personagem .imagem {
     .botoes {
         padding: 20px;
         top: -20%;
+        gap: 11px;
     }
     .botoes .botao img {
         max-width: 50px;
