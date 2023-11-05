@@ -5,7 +5,7 @@
 https://rochadevj.github.io/Hallowen-movies/
 
 O Seletor de Personagens de Filmes de Terror é uma aplicação web interativa que permite aos usuários explorarem uma coleção de personagens icônicos de filmes de terror. Ao clicar nos botões de seleção correspondentes a cada personagem, os usuários podem visualizar informações detalhadas sobre o personagem, incluindo uma imagem representativa e uma breve descrição de sua história e características.
-organizado pelo [HenriqueRocha](https://henriquerocha.io/").
+organizado pelo [HenriqueRocha](https://henriquerocha.io/).
 
 
 ## Layout web
